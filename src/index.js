@@ -1,13 +1,12 @@
 import React from 'react'; // does dom manipulation for us
 import ReactDOM from 'react-dom';
 import './index.css';
-import CardList from './CardList';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
-import { robots } from "./robots";
 
 ReactDOM.render( 
-  <CardList robots={robots}/>
+  <App/>
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>
