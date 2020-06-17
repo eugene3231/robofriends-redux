@@ -20,6 +20,4 @@ class ErrorBoundry extends Component {
     }
 }
 
-    
-
 export default ErrorBoundry;
